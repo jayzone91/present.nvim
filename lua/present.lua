@@ -243,7 +243,7 @@ local create_window_configuration = function()
       row = 4,
     },
     footer = {
-      realtive = "editor",
+      relative = "editor",
       width = width,
       height = 1,
       style = "minimal",
