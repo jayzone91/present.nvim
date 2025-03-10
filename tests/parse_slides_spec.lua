@@ -4,7 +4,7 @@ local parse = require("present")._parse_slides
 
 local eq = assert.are.same
 
-descripe("present.parse_slides", function()
+describe("present.parse_slides", function()
   it("should parse an empty file", function()
     local slides = parse({ "" })
 
